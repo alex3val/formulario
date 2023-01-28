@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de ejemplo</title>
+</head>
+<body>
+  <form>
+    <label>Nombre:</label>
+    <input type="text" name="name"><br><br>
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+    <label>Género:</label><br>
+    <input type="radio" name="gender" value="male"> Hombre<br>
+    <input type="radio" name="gender" value="female"> Mujer<br><br>
+     <label>Comentarios:</label><br>
+  <textarea name="comments"></textarea><br><br>
+    <input type="submit" value="Enviar">
+  </form> 
+</body>
+</html>
